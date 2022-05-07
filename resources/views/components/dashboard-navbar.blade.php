@@ -20,32 +20,35 @@
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap"
                 aria-expanded="true" aria-controls="collapseBootstrap">
                 <i class="far fa-fw fa-window-maximize"></i>
-                <span>Bootstrap UI</span>
+                <span>Master Data</span>
             </a>
             <div id="collapseBootstrap" class="collapse" aria-labelledby="headingBootstrap"
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Bootstrap UI</h6>
-                    <a class="collapse-item" href="alerts.html">Alerts</a>
-                    <a class="collapse-item" href="buttons.html">Buttons</a>
-                    <a class="collapse-item" href="dropdowns.html">Dropdowns</a>
-                    <a class="collapse-item" href="modals.html">Modals</a>
-                    <a class="collapse-item" href="popovers.html">Popovers</a>
-                    <a class="collapse-item" href="progress-bar.html">Progress Bars</a>
+                    <h6 class="collapse-header">Manajemen Data</h6>
+                    <a class="collapse-item" href="alerts.html">Master Peserta</a>
+                    <a class="collapse-item" href="buttons.html">Master Petugas</a>
+                    <a class="collapse-item" href="dropdowns.html">Master UKOM</a>
                 </div>
             </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="ui-colors.html">
+                <i class="fas fa-fw fa-palette"></i>
+                <span>Bank Soal</span>
+            </a>
         </li>
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseForm"
                 aria-expanded="true" aria-controls="collapseForm">
                 <i class="fab fa-fw fa-wpforms"></i>
-                <span>Forms</span>
+                <span>Uji Kompetensi</span>
             </a>
             <div id="collapseForm" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Forms</h6>
-                    <a class="collapse-item" href="form_basics.html">Form Basics</a>
-                    <a class="collapse-item" href="form_advanceds.html">Form Advanceds</a>
+                    <h6 class="collapse-header">Manajemen UKOM</h6>
+                    <a class="collapse-item" href="form_basics.html">Jadwal Ujian</a>
+                    <a class="collapse-item" href="form_advanceds.html">Hasil Ujian</a>
                 </div>
             </div>
         </li>
@@ -53,24 +56,51 @@
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable"
                 aria-expanded="true" aria-controls="collapseTable">
                 <i class="fas fa-fw fa-table"></i>
-                <span>Tables</span>
+                <span>Laporan</span>
             </a>
             <div id="collapseTable" class="collapse" aria-labelledby="headingTable"
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Tables</h6>
-                    <a class="collapse-item" href="simple-tables.html">Simple Tables</a>
-                    <a class="collapse-item" href="datatables.html">DataTables</a>
+                    <h6 class="collapse-header">Kelola Laporan</h6>
+                    <a class="collapse-item" href="simple-tables.html">Jadwal Ujian</a>
+                    <a class="collapse-item" href="datatables.html">Hasil Ujian</a>
+                </div>
+            </div>
+        </li>
+        <hr class="sidebar-divider">
+        <div class="sidebar-heading">
+            MORE
+        </div>
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable"
+                aria-expanded="true" aria-controls="collapseTable">
+                <i class="fas fa-fw fa-table"></i>
+                <span>User Management</span>
+            </a>
+            <div id="collapseTable" class="collapse" aria-labelledby="headingTable"
+                data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">User Management</h6>
+                    <a class="collapse-item" href="simple-tables.html">Administrator</a>
+                    <a class="collapse-item" href="datatables.html">User Akun</a>
                 </div>
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="ui-colors.html">
-                <i class="fas fa-fw fa-palette"></i>
-                <span>UI Colors</span>
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable"
+                aria-expanded="true" aria-controls="collapseTable">
+                <i class="fas fa-fw fa-table"></i>
+                <span>Settings</span>
             </a>
+            <div id="collapseTable" class="collapse" aria-labelledby="headingTable"
+                data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Settings</h6>
+                    <a class="collapse-item" href="simple-tables.html">Administrator</a>
+                    <a class="collapse-item" href="datatables.html">User Akun</a>
+                </div>
+            </div>
         </li>
-        <hr class="sidebar-divider">
         {{-- <div class="version" id="version-ruangadmin"></div> --}}
     </ul>
 </div>
