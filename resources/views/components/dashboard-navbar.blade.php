@@ -17,12 +17,12 @@
             Features
         </div>
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap"
-                aria-expanded="true" aria-controls="collapseBootstrap">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap1"
+                aria-expanded="true" aria-controls="collapseBootstrap1">
                 <i class="far fa-fw fa-window-maximize"></i>
                 <span>Master Data</span>
             </a>
-            <div id="collapseBootstrap" class="collapse" aria-labelledby="headingBootstrap"
+            <div id="collapseBootstrap1" class="collapse" aria-labelledby="headingBootstrap"
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Manajemen Data</h6>
@@ -53,12 +53,12 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable"
-                aria-expanded="true" aria-controls="collapseTable">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable2"
+                aria-expanded="true" aria-controls="collapseTable2">
                 <i class="fas fa-fw fa-table"></i>
                 <span>Laporan</span>
             </a>
-            <div id="collapseTable" class="collapse" aria-labelledby="headingTable"
+            <div id="collapseTable2" class="collapse" aria-labelledby="headingTable"
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Kelola Laporan</h6>
@@ -72,12 +72,12 @@
             MORE
         </div>
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable"
-                aria-expanded="true" aria-controls="collapseTable">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable3"
+                aria-expanded="true" aria-controls="collapseTable3">
                 <i class="fas fa-fw fa-table"></i>
                 <span>User Management</span>
             </a>
-            <div id="collapseTable" class="collapse" aria-labelledby="headingTable"
+            <div id="collapseTable3" class="collapse" aria-labelledby="headingTable"
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">User Management</h6>
@@ -87,12 +87,12 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable"
-                aria-expanded="true" aria-controls="collapseTable">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable4"
+                aria-expanded="true" aria-controls="collapseTable4">
                 <i class="fas fa-fw fa-table"></i>
                 <span>Settings</span>
             </a>
-            <div id="collapseTable" class="collapse" aria-labelledby="headingTable"
+            <div id="collapseTable4" class="collapse" aria-labelledby="headingTable"
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Settings</h6>
