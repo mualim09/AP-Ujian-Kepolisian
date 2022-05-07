@@ -49,13 +49,13 @@
                         </ol>
                     </div>
 
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <div class="container">
+                    {{-- <div class="card mb-3"> --}}
+                        {{-- <div class="card-body"> --}}
+                            {{-- <div class="container"> --}}
                                 @yield('main-content')
-                            </div>
-                        </div>
-                    </div>
+                            {{-- </div> --}}
+                        {{-- </div> --}}
+                    {{-- </div> --}}
 
                     <!-- Modal Logout -->
                     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog"
