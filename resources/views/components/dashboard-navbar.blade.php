@@ -26,14 +26,14 @@
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Manajemen Data</h6>
-                    <a class="collapse-item" href="alerts.html">Master Peserta</a>
+                    <a class="{{ route('data-peserta') }}" href="alerts.html">Master Peserta</a>
                     <a class="collapse-item" href="buttons.html">Master Petugas</a>
                     <a class="collapse-item" href="dropdowns.html">Master UKOM</a>
                 </div>
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="ui-colors.html">
+            <a class="nav-link" href="{{ route('bank-soal') }}">
                 <i class="fas fa-fw fa-palette"></i>
                 <span>Bank Soal</span>
             </a>
