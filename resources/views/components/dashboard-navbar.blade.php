@@ -26,9 +26,9 @@
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Manajemen Data</h6>
-                    <a class="{{ route('data-peserta') }}" href="alerts.html">Master Peserta</a>
-                    <a class="collapse-item" href="buttons.html">Master Petugas</a>
-                    <a class="collapse-item" href="dropdowns.html">Master UKOM</a>
+                    <a class="collapse-item" href="{{ route('data-peserta') }}">Master Peserta</a>
+                    <a class="collapse-item" href="{{ route('data-petugas') }}">Master Petugas</a>
+                    <a class="collapse-item" href="{{ route('data-ukom') }}">Master UKOM</a>
                 </div>
             </div>
         </li>

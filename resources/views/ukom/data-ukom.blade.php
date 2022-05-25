@@ -1,7 +1,7 @@
 @extends('layouts.dashboard-layouts')
 @section('title', 'Ujian Kepolisian')
-@section('content-prefix', 'Daftar Peserta')
-@section('content-header', 'Dashboard - Daftar Peserta')
+@section('content-prefix', 'Daftar UKOM')
+@section('content-header', 'Dashboard - Daftar UKOM')
 
 @push('css')
     {{-- <link rel="stylesheet" type="text/css" href="{{ asset('assets/datatables') }}/datatables.min.css"> --}}
@@ -16,7 +16,7 @@
                 <div class="row">
                     <h4>
                         <b>
-                            Daftar Peserta
+                            Daftar UKOM
                         </b>
                     </h4>
                 </div>
@@ -27,22 +27,16 @@
                             <thead class="thead-dark">
                                 <tr>
                                     <th>No.</th>
-                                    <th>Nama</th>
-                                    <th>Username</th>
-                                    <th>Status</th>
-                                    <th>Email</th>
-                                    <th>No. HP / Telepon</th>
+                                    <th>UKOM</th>
+                                    <th>Kode UKOM</th>
                                     <th>Opsi</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Fathur Walkers</td>
-                                    <td>fathurwalkers</td>
-                                    <td>Peserta</td>
-                                    <td>fathurwa@gmail.com</td>
-                                    <td>08494828539</td>
+                                    <td>Bahasa Indonesia</td>
+                                    <td>UKOM39C9D2ZX</td>
                                     <td class="mx-auto">
                                         <button type="button" class="btn btn-sm btn-success mr-1">Lihat</button>
                                         <button type="button" class="btn btn-sm btn-info">Ubah</button>
@@ -51,11 +45,18 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Kengkeng Walkers</td>
-                                    <td>kengkengwalkers</td>
-                                    <td>Peserta</td>
-                                    <td>kengkeng@gmail.com</td>
-                                    <td>084948282812</td>
+                                    <td>Bahasa Inggris</td>
+                                    <td>UKOM39C9S2ZX</td>
+                                    <td class="mx-auto">
+                                        <button type="button" class="btn btn-sm btn-success mr-1">Lihat</button>
+                                        <button type="button" class="btn btn-sm btn-info">Ubah</button>
+                                        <button type="button" class="btn btn-sm btn-danger">Hapus</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Bahasa Spanyol</td>
+                                    <td>UKOM3DD292ZX</td>
                                     <td class="mx-auto">
                                         <button type="button" class="btn btn-sm btn-success mr-1">Lihat</button>
                                         <button type="button" class="btn btn-sm btn-info">Ubah</button>

@@ -1,7 +1,7 @@
 @extends('layouts.dashboard-layouts')
 @section('title', 'Ujian Kepolisian')
-@section('content-prefix', 'Daftar Peserta')
-@section('content-header', 'Dashboard - Daftar Peserta')
+@section('content-prefix', 'Daftar Petugas')
+@section('content-header', 'Dashboard - Daftar Petugas')
 
 @push('css')
     {{-- <link rel="stylesheet" type="text/css" href="{{ asset('assets/datatables') }}/datatables.min.css"> --}}
@@ -16,7 +16,7 @@
                 <div class="row">
                     <h4>
                         <b>
-                            Daftar Peserta
+                            Daftar Petugas
                         </b>
                     </h4>
                 </div>
@@ -38,10 +38,10 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Fathur Walkers</td>
-                                    <td>fathurwalkers</td>
-                                    <td>Peserta</td>
-                                    <td>fathurwa@gmail.com</td>
+                                    <td>Kembaran Fathur Walkers</td>
+                                    <td>fathurkembarwalkers</td>
+                                    <td>Petugas</td>
+                                    <td>fathurwakembar@gmail.com</td>
                                     <td>08494828539</td>
                                     <td class="mx-auto">
                                         <button type="button" class="btn btn-sm btn-success mr-1">Lihat</button>
@@ -51,10 +51,10 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Kengkeng Walkers</td>
-                                    <td>kengkengwalkers</td>
-                                    <td>Peserta</td>
-                                    <td>kengkeng@gmail.com</td>
+                                    <td>Kembaran Walkers</td>
+                                    <td>kengwalkers</td>
+                                    <td>Petugas</td>
+                                    <td>kengkengkembar@gmail.com</td>
                                     <td>084948282812</td>
                                     <td class="mx-auto">
                                         <button type="button" class="btn btn-sm btn-success mr-1">Lihat</button>
