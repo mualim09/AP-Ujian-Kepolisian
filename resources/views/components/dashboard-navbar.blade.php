@@ -47,12 +47,12 @@
             <div id="collapseForm" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Manajemen UKOM</h6>
-                    <a class="collapse-item" href="form_basics.html">Jadwal Ujian</a>
-                    <a class="collapse-item" href="form_advanceds.html">Hasil Ujian</a>
+                    <a class="collapse-item" href="{{ route('jadwal-ujian') }}">Jadwal Ujian</a>
+                    <a class="collapse-item" href="{{ route('hasil-ujian') }}">Hasil Ujian</a>
                 </div>
             </div>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable2"
                 aria-expanded="true" aria-controls="collapseTable2">
                 <i class="fas fa-fw fa-table"></i>
@@ -66,7 +66,7 @@
                     <a class="collapse-item" href="datatables.html">Hasil Ujian</a>
                 </div>
             </div>
-        </li>
+        </li> --}}
         <hr class="sidebar-divider">
         <div class="sidebar-heading">
             MORE
@@ -81,7 +81,7 @@
                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">User Management</h6>
-                    <a class="collapse-item" href="simple-tables.html">Administrator</a>
+                    {{-- <a class="collapse-item" href="simple-tables.html">Administrator</a> --}}
                     <a class="collapse-item" href="datatables.html">User Akun</a>
                 </div>
             </div>

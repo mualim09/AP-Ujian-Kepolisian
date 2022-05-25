@@ -5,6 +5,7 @@ use App\Http\Controllers\BackController;
 use App\Http\Controllers\SoalController;
 use App\Http\Controllers\PesertaController;
 use App\Http\Controllers\PetugasController;
+use App\Http\Controllers\UjianController;
 use App\Http\Controllers\UkomController;
 
 Route::get('/', function () {
@@ -23,4 +24,8 @@ Route::group(['prefix' => 'dashboard'], function () {
 
     // UKOM
     Route::get('/data-ukom', [UkomController::class, 'data_ukom'])->name('data-ukom');
+
+    // UKOM
+    Route::get('/jadwal-ujian', [UjianController::class, 'jadwal_ujian'])->name('jadwal-ujian');
+    Route::get('/hasil-ujian', [UjianController::class, 'hasil_ujian'])->name('hasil-ujian');
 });

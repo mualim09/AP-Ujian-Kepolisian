@@ -27,22 +27,26 @@
                             <thead class="thead-dark">
                                 <tr>
                                     <th>No.</th>
-                                    <th>Nama</th>
-                                    <th>Username</th>
-                                    <th>Status</th>
-                                    <th>Email</th>
-                                    <th>No. HP / Telepon</th>
+                                    <th>Nama Ujian</th>
+                                    <th>Penanggung Jawab</th>
+                                    <th>Jumlah Soal</th>
+                                    <th>Waktu Ujian</th>
+                                    <th>Token</th>
                                     <th>Opsi</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Kembaran Fathur Walkers</td>
-                                    <td>fathurkembarwalkers</td>
-                                    <td>Petugas</td>
-                                    <td>fathurwakembar@gmail.com</td>
-                                    <td>08494828539</td>
+                                    <td>Test Dasar Polisi</td>
+                                    <td>Trisno</td>
+                                    <td>10 Soal (Soal Acak).</td>
+                                    <td>
+                                        13 Apr, 2022 | 00:00 s/d
+                                        13 Apr, 2022 | 00:00
+                                        (116 Menit)
+                                    </td>
+                                    <td>T9SD9</td>
                                     <td class="mx-auto">
                                         <button type="button" class="btn btn-sm btn-success mr-1">Lihat</button>
                                         <button type="button" class="btn btn-sm btn-info">Ubah</button>
@@ -51,11 +55,15 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Kembaran Walkers</td>
-                                    <td>kengwalkers</td>
-                                    <td>Petugas</td>
-                                    <td>kengkengkembar@gmail.com</td>
-                                    <td>084948282812</td>
+                                    <td>Test Dasar Ilmu Komputer</td>
+                                    <td>Fathur Multiverse</td>
+                                    <td>15 Soal (Soal Acak).</td>
+                                    <td>
+                                        13 Apr, 2022 | 00:00 s/d
+                                        13 Apr, 2022 | 00:00
+                                        (120 Menit)
+                                    </td>
+                                    <td>VK7D9</td>
                                     <td class="mx-auto">
                                         <button type="button" class="btn btn-sm btn-success mr-1">Lihat</button>
                                         <button type="button" class="btn btn-sm btn-info">Ubah</button>
