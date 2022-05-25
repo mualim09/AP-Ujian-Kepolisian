@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BackController;
+use App\Http\Controllers\ClientController;
 use App\Http\Controllers\SoalController;
 use App\Http\Controllers\PesertaController;
 use App\Http\Controllers\PetugasController;
@@ -10,6 +11,10 @@ use App\Http\Controllers\UkomController;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::group(['prefix' => 'client'], function () {
+    Route::get('/', [ClientController::class, 'index'])->name('client-index');
 });
 
 Route::group(['prefix' => 'dashboard'], function () {
