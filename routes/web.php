@@ -10,7 +10,7 @@ use App\Http\Controllers\UjianController;
 use App\Http\Controllers\UkomController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('dashboard');
 });
 
 Route::group(['prefix' => 'client'], function () {
