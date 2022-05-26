@@ -15,6 +15,7 @@ Route::get('/', function () {
 
 Route::get('/login-admin', [BackController::class, 'login_admin'])->name('login-admin');
 Route::get('/login-client', [BackController::class, 'login_client'])->name('login-client');
+Route::post('/post-login', [BackController::class, 'postlogin'])->name('postlogin');
 
 Route::group(['prefix' => 'client'], function () {
     Route::get('/', [ClientController::class, 'index'])->name('client-index');
