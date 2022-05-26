@@ -15,7 +15,7 @@ class CekLoginAdmin
             return redirect()->route('login-admin')->with('status', 'Silahkan login terlebih dahulu!');
         }
         if ($cek_users->login_level == "pengguna") {
-            return redirect()->route('client-home')->with('status', 'Tidak bisa melakukan login sebagai pengguna. ');
+            return redirect()->route('client-index')->with('status', 'Tidak bisa melakukan login sebagai pengguna. ');
         } elseif ($cek_users->login_level == "admin") {
             View::share('users', $cek_users);
             return $next($request);

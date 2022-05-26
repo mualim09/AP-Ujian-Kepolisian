@@ -31,7 +31,16 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Login</h1>
                                     </div>
-                                    <form class="user" action="{{ route('post-login') }}">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-12">
+                                            @if (session('status'))
+                                                <div class="alert alert-success">
+                                                    {{ session('status') }}
+                                                </div>
+                                            @endif
+                                        </div>
+                                    </div>
+                                    <form class="user" action="{{ route('post-login') }}" method="POST">
                                         @csrf
                                         <input type="hidden" name="cekrequest" value="ADMIN">
                                         <div class="form-group">

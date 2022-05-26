@@ -17,6 +17,14 @@ class BackController extends Controller
         $this->users = session('data_login');
     }
 
+    public function index()
+    {
+        if($this->users == "pengguna"){
+            return redirect()->route('client-index')->with('status', 'Maaf anda tidak punya akses ke halaman ini.');
+        }
+        return view('dashboard.index');
+    }
+
     public function login_admin()
     {
         $users = session('data_login');

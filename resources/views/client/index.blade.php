@@ -9,6 +9,15 @@
 
 @section('main-content')
     <div class="row row-cols-1  justify-content-center">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            @if (session('status'))
+                <div class="alert alert-success">
+                    {{ session('status') }}
+                </div>
+            @endif
+        </div>
+    </div>
+    <div class="row row-cols-1  justify-content-center">
 
         <div class="col-10 mb-4 btn shadow ">
             <a href="{{ route('client-index') }}">
@@ -64,8 +73,9 @@
 
         <div class="col-10 mb-4 btn shadow">
             {{-- <a href="#"> --}}
-                <form action="{{ route('client-index') }}" method="GET">
+                <form action="{{ route('logout') }}" method="POST">
                     @csrf
+                    <input type="hidden" name="logoutrequest" value="CLIENT">
                 <div class="card border-danger ">
                     <div class="card-body text-left">
                         <button type="submit" class="btn btn-danger btn-sm">

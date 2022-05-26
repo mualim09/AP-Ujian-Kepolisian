@@ -73,9 +73,13 @@
                                     <p>Are you sure you want to logout?</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-outline-primary"
+                                    <form action="{{ route('logout') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="logoutrequest" value="ADMIN">
+                                        <button type="button" class="btn btn-outline-primary"
                                         data-dismiss="modal">Cancel</button>
-                                    <a href="login.html" class="btn btn-primary">Logout</a>
+                                        <button type="submit" class="btn btn-primary">Logout</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>

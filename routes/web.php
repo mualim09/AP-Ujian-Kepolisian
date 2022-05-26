@@ -16,12 +16,13 @@ Route::get('/', function () {
 Route::get('/login-admin', [BackController::class, 'login_admin'])->name('login-admin');
 Route::get('/login-client', [BackController::class, 'login_client'])->name('login-client');
 Route::post('/post-login', [BackController::class, 'post_login'])->name('post-login');
+Route::post('/logout', [BackController::class, 'logout'])->name('logout');
 
-Route::group(['prefix' => 'client'], function () {
+Route::group(['prefix' => 'client', 'middleware' => 'cekloginclient'], function () {
     Route::get('/', [ClientController::class, 'index'])->name('client-index');
 });
 
-Route::group(['prefix' => 'dashboard'], function () {
+Route::group(['prefix' => 'dashboard', 'middleware' => 'cekloginadmin'], function () {
     Route::get('/', [BackController::class, 'index'])->name('dashboard');
     Route::get('/bank-soal', [SoalController::class, 'bank_soal'])->name('bank-soal');
 
