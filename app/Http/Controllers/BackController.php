@@ -23,7 +23,7 @@ class BackController extends Controller
         if ($users) {
             return redirect()->route('dashboard');
         }
-        return view('login');
+        return view('login-admin');
     }
 
     public function login_client()
@@ -32,7 +32,7 @@ class BackController extends Controller
         if ($users) {
             return redirect()->route('client-index');
         }
-        return view('client.login');
+        return view('login-client');
     }
 
     public function logout(Request $request)
