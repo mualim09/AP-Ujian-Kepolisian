@@ -13,8 +13,11 @@ class CreateDataTable extends Migration
 
             $table->string('data_nama')->nullable();
             $table->string('data_telepon')->nullable();
-            $table->string('data_nik')->nullable();
             $table->string('data_jeniskelamin')->nullable();
+            $table->string('data_kode')->nullable();
+
+            $table->unsignedBigInteger('login_id')->nullable()->default(null);
+            $table->foreign('login_id')->references('id')->on('login')->onDelete('cascade');
 
             $table->timestamps();
         });
